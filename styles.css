@@ -1,0 +1,158 @@
+/* Estilo boddy*/
+
+body {
+    background-color: #F8BBD0;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #E91E63;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #E91E63;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilo para el texto del logo en la barra de navegación */
+nav .brand-logo {
+    color: #fff; 
+}
+
+/* Estilo para los elementos del menú en la barra de navegación */
+nav ul a {
+    color: #fff; 
+}
+
+/* Estilo para el menú lateral en dispositivos móviles */
+.sidenav {
+    background-color: #F8BBD0;
+    z-index: 1000;
+}
+
+/* Estilo para el texto del menú lateral en dispositivos móviles */
+.sidenav a {
+    color: #F8BBD0; 
+}
+
+nav a:hover {
+    color: #F8BBD0; 
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos de títulos */
+h1 {
+    text-align: center;
+    font-family: 'Agbalumo', sans-serif; 
+}
+h3{
+    color:  #212121;
+    font-family: 'Agbalumo', sans-serif; 
+}
+
+
+/* Estilos bienvenida */
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se muevan a la siguiente fila en pantallas pequeñas */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 2vw; /* Utilizar unidades de ventana para el relleno */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .presentation-image-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .presentation-title {
+    font-family: 'Agbalumo', sans-serif; 
+  }
+  
+
+  .presentation-text {
+    text-align: center; 
+  }
+  
+  .presentation-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .text-container {
+      flex: 100%; 
+    }
+  
+    .presentation-image-container {
+      flex: 100%; 
+    }
+  }
+
+/* Estilos tarjetas de la miembros */
+
+.card {
+    color: #212121;
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+  }
+
+  .card-title {
+    color:  #212121;
+    font-family: 'Agbalumo', sans-serif; 
+    text-shadow: 5px 5px 5px #C2185B; 
+  }
+
+  .card-image {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+ }
+ 
+ .card-action a img {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px; 
+ }
+ 
+
+  .card-action a:hover {
+    color: #2196F3; 
+  }
+  
+  
